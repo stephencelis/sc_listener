@@ -1,5 +1,5 @@
-SCListener 1.0
-==============
+SCListener 1.0.1
+================
 
 A simple class for listening to microphone levels, suitable for the iPhone.
 

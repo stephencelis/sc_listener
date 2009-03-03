@@ -1,5 +1,5 @@
 //
-// SCListener 1.0
+// SCListener 1.0.1
 // http://github.com/stephencelis/sc_listener
 //
 // (c) 2009-* Stephen Celis, <stephen@stephencelis.com>.
@@ -64,6 +64,7 @@ static void listeningCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBu
 		return;
 
 	AudioQueueDispose(queue, true);
+	queue = nil;
 }
 
 - (BOOL)isListening {
